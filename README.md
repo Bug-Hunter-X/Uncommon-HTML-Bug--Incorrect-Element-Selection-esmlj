@@ -1,0 +1,1 @@
+This repository demonstrates a common error in HTML where developers use an incorrect method to select an element by ID. The bug is in the way the script attempts to modify the content of a div.  The solution corrects the JavaScript code to use the proper 'getElementById' method.  This demonstrates a simple yet easily overlooked error.
