@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    // Incorrect way to select element with ID
+    document.getElementByIdx("myDiv").innerHTML = "This text replaced incorrectly."; 
+  </script>
+</body>
+</html>
